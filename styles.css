@@ -3,13 +3,32 @@ body {
   font-family: Verdana, Arial, sans-serif;
 }
 
-#index,
-h1 {
+div {
   text-align: center;
 }
 
-ul#index-list {
+div.list ul,
+div.list ol {
   display: inline-block;
   text-align: left;
   font-size: x-large;
+}
+
+a.index-link {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+p.pheader {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+p {
+  font-size: x-large;
+}
+
+a.recipe-link {
+  font-size: larger;
+  font-weight: bold;
 }
